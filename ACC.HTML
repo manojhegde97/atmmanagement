@@ -1,0 +1,60 @@
+
+<HTML>
+<head>
+<script language="javascript" type="text/javascript">
+function btntest_onclick() 
+{
+    window.location.href = "edit.html";
+}
+</script>
+</head>
+<style>
+.loginbox{
+position: absolute;
+top: 20%;
+left: 40%;
+
+width: 350px;
+height: 420px;
+box-sizing: border-box;
+background: rgba(0,0,0,.5)
+background:transparent;
+}
+.form-control {
+  width: 97%;
+  height: 50px;
+  border: none;
+  padding: 5px 7px 5px 15px;
+  background: #fff;
+  color: #666;
+  border: 2px solid #ddd;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 10px
+  ;
+}
+.loginbox input[type="submit"]{
+color: #fff;
+background: #ff267e;
+cursor: pointer;
+padding:10px 29px;
+border-radius: 15px;
+}</style>
+<p style="color:white;font-size:40px">ADD</p></br></br>
+<center>
+<body style="background:url(current-account.png);background-repeat:no-repeat;background-size:100% 29%; background-color:#B886ED">
+<div class="loginbox">
+<form action="hel1.php" method="post">
+</br></br></br>
+<input type="text" class="form-control" name="acc_no" placeholder="enter account no here"></br>
+<input type="text" class="form-control" name="password" placeholder="enter password"></br>
+<input type="text" class="form-control" name="acc_type" placeholder="enter account type here"></br>
+<input type="text" class="form-control" name="balance" placeholder="enter account balance here"></br>
+<input type="text" class="form-control" name="b_id" placeholder="enter bank id here"></br>
+<input type=submit value="submit">
+</form>
+<input id="btntest" type="button" value="BACK" 
+       onclick="return btntest_onclick()" />
+</div>
+</center>
+</html>
