@@ -1,4 +1,4 @@
-# atmmanagement
+# atmmanagement. for any queries contact me at . manojhegde97@gmail.com
 1. Install wamp server before starting the project.
 2. copy paste all code inside the folder C:\wamp\www 
 3. The above folder will be created once you install wamp server
